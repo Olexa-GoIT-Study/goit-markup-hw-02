@@ -139,3 +139,50 @@ img {
 .section-solution button:focus {
     background-color: #404bbf; /* OCEAN */
 }
+.section-features{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 318px;
+  
+}
+.container-feature {
+  display: flex;
+  width: 1152px;
+  margin: 0, auto;  
+}
+.container-list{
+  display: flex;
+  gap: 24px;
+  list-style: none;
+
+}
+
+/* Стилі для всього тексту в списку (колір успадкується) */
+.container-list li {
+  /* Розрахунок ширини: (100% - 3 відступи по 24px) / 4 елементи */
+  width: calc((100% - 72px) / 4);
+  color: #2e2f42; /* NAVY BLUE */
+}
+
+/* Стилі для заголовків */
+.container-list h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;      /* Medium */
+  font-size: 20px;       /* Розмір зі скриншота */
+  line-height: 1.2;      /* 24 / 20 = 1.2 */
+  letter-spacing: 0.02em; /* 2% переводимо в em */
+  margin-bottom: 8px;    /* Стандартний відступ до тексту */
+}
+
+/* Стилі для основного тексту опису */
+.container-list p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;      /* Regular */
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;        /* SLATE колір */
+}
+
