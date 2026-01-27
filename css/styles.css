@@ -64,9 +64,9 @@ img {
 }
 
 .contacts {
-  display: flex;
-  margin-left: auto;
-  font-style: normal;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .contacts-list {
   display: flex;
@@ -147,12 +147,12 @@ img {
   height: 318px;
   
 }
-.container-feature {
+.container {
   display: flex;
   width: 1152px;
   margin: 0, auto;  
 }
-.container-list{
+.feature-list{
   display: flex;
   gap: 24px;
   list-style: none;
@@ -160,14 +160,14 @@ img {
 }
 
 /* Стилі для всього тексту в списку (колір успадкується) */
-.container-list li {
+.feature-list li {
   /* Розрахунок ширини: (100% - 3 відступи по 24px) / 4 елементи */
   width: calc((100% - 72px) / 4);
   color: #2e2f42; /* NAVY BLUE */
 }
 
 /* Стилі для заголовків */
-.container-list h3 {
+.feature-list h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;      /* Medium */
   font-size: 20px;       /* Розмір зі скриншота */
@@ -177,7 +177,7 @@ img {
 }
 
 /* Стилі для основного тексту опису */
-.container-list p {
+.feature-list p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;      /* Regular */
   font-size: 16px;
