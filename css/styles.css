@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em; /* 2% от 16px */  
+  color: #434455; 
+  background-color: #ffffff;
+}
+
+/* Ваше власне міні-обнулення */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Щоб прибрати крапки в меню та портфоліо */
+}
+
+a {
+  text-decoration: none; /* Щоб прибрати підкреслення у посилань */
+}
+
+img {
+  display: block; /* Прибирає зайвий відступ знизу у картинок */
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  height: 72px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+.contacts{
+    display: flex;
+    margin-left: auto;
+}
+.contacts-list {
+  display: flex;
+  gap: 40px;
+  }
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+.logo span {
+  color: #2e2f42;
+}
