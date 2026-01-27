@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400; /* Regular */
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em; /* 2% от 16px */  
   color: #434455; 
   background-color: #ffffff;
@@ -51,20 +51,44 @@ img {
   display: flex;
   gap: 40px;
 }
+.nav-list a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5; /* 24px / 16px */
+  color: #2E2F42; /* Навигация обычно темнее (Navy Blue) */
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: #404BBF; /* Цвет при наведении */
+}
+
 .contacts{
     display: flex;
     margin-left: auto;
+    font-style: normal;
 }
 .contacts-list {
   display: flex;
   gap: 40px;
   }
 
+  .contacts-list a {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455; /* Тот самый Slate */
+}
+
+.contacts-list a:hover,
+.contacts-list a:focus {
+  color: #404BBF; /* Цвет при наведении */
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.17; /* 21 / 18 */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
