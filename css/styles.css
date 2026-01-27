@@ -1,10 +1,10 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400; /* Regular */
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em; /* 2% от 16px */  
-  color: #434455; 
+  letter-spacing: 0.02em; /* 2% от 16px */
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -55,25 +55,25 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5; /* 24px / 16px */
-  color: #2E2F42; /* Навигация обычно темнее (Navy Blue) */
+  color: #2e2f42; /* Навигация обычно темнее (Navy Blue) */
 }
 
 .nav-list a:hover,
 .nav-list a:focus {
-  color: #404BBF; /* Цвет при наведении */
+  color: #404bbf; /* Цвет при наведении */
 }
 
-.contacts{
-    display: flex;
-    margin-left: auto;
-    font-style: normal;
+.contacts {
+  display: flex;
+  margin-left: auto;
+  font-style: normal;
 }
 .contacts-list {
   display: flex;
   gap: 40px;
-  }
+}
 
-  .contacts-list a {
+.contacts-list a {
   font-size: 16px;
   line-height: 1.5;
   color: #434455; /* Тот самый Slate */
@@ -81,7 +81,7 @@ img {
 
 .contacts-list a:hover,
 .contacts-list a:focus {
-  color: #404BBF; /* Цвет при наведении */
+  color: #404bbf; /* Цвет при наведении */
 }
 
 .logo {
@@ -96,4 +96,46 @@ img {
 }
 .logo span {
   color: #2e2f42;
+}
+
+
+.section-solution{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e2f42;
+  padding: 188px 0; /* Великі відступи зверху і знизу */
+  text-align: center;
+}
+.section-solution h1 {
+    color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 48px;
+}
+
+.section-solution button {    
+    background-color: #4d5ae5; /* Колір фону (IRIS) */  
+    color: #ffffff; /* Колір тексту Білий */   
+    font-family: "Roboto", sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;     
+    min-width: 169px; /* Розміри та відступи */
+    height: 56px;
+    border: none;
+    border-radius: 4px;    
+    padding: 16px 32px;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-solution button:hover,
+.section-solution button:focus {
+    background-color: #404bbf; /* OCEAN */
 }
