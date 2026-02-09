@@ -1,5 +1,7 @@
 /* ===== Base styles ===== */
 
+/* #region Base */
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -38,6 +40,24 @@ button {
 address {
   font-style: normal;
 }
+
+.feature-title,
+.feature-text,
+.portfolio-subtitle,
+.portfolio-caption {
+  text-align: left;
+}
+
+.hero-title,
+.section-title,
+.team-name,
+.team-position{
+  text-align: center;
+}
+
+
+
+/* #endregion */
 
 /* ===== Header ===== */
 
@@ -138,6 +158,12 @@ address {
 .team {
   background-color: #f4f4fd;
 }
+
+.team-list li {
+  background-color: #ffffff;
+}
+
+
 
 .team-name {
   font-weight: 500;
